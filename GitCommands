@@ -10,3 +10,10 @@ git config --global user.name "Mcha khamis"
 git cat-file -p 174a318
 git cat-file -p 2f092e9cadfc1eb4a6d2febfddb941f4c1fe6fd6
 git log --all --graph --decorate
+git checkout # moves the head to previous stages in master or to new banrches 
+# get checkout will modify changes in working directory and can destriry ealier changes if you are not carefull
+#git checkout moves the head pointer and also mutates the contents of the working directory 
+#with the contents that the head pointer now points to
+git diff FileName shows what has been modified since the last snapshot
+# git diff 434343 FileNAme can also shows the diff between the snapshot of hash num 54553534 and now
+git diff 34343 HEAD FileName # shows difference in two times in history
