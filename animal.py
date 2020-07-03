@@ -16,6 +16,7 @@ def main():
         cat()
     else:
         default()
+    print("play ground")
 
 if  __name__ == '__main__':
     main()

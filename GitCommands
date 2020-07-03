@@ -17,3 +17,6 @@ git checkout # moves the head to previous stages in master or to new banrches
 git diff FileName shows what has been modified since the last snapshot
 # git diff 434343 FileNAme can also shows the diff between the snapshot of hash num 54553534 and now
 git diff 34343 HEAD FileName # shows difference in two times in history
+git branch -vv # verbose options prints more info on the branches
+git merge --continue
+
