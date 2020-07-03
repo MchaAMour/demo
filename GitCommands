@@ -1,0 +1,12 @@
+git status
+git add hello.txt 
+git add :/ add everything from the top level down of your repo
+git diff
+git log
+git commit 
+git commit -a # commits all changes that were made to files athat are already been tracked by git(doesn include new things) 
+git config --global user.email "eng.mcha@gmail.com"
+git config --global user.name "Mcha khamis"
+git cat-file -p 174a318
+git cat-file -p 2f092e9cadfc1eb4a6d2febfddb941f4c1fe6fd6
+git log --all --graph --decorate
